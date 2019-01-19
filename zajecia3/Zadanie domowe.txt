@@ -1,0 +1,28 @@
+Przeczytaj prosze pierwsze dwa rozdzialy z tej ksiazki :)
+https://git-scm.com/book/pl/v2
+
+* 2 rozdzialy 
+* Dodac zadania do gita do czwartku 22:00
+* lupka oraz obrazek i tabelka w zadaniu z formularzami.
+* zadanie z formularzami wzorujac sie na s. 169
+
+Prosze poukladaj pliki w folderze z kursu w ladna strukture, proponuje:
+KURS:
+ * zajecia1
+ * zajecia2
+ * zajecia3
+
+ 
+a w poszczegolnych zajeciach foldery:
+ * z_kursu
+ * zadanie_domowe
+
+Na tym etapie o wiele latwiej bedzie nam zadbac o czytelnosc twojego gita, niz za pól roku ;)
+
+Do ogladniecia przed nastepnymi zajeciami:
+* https://www.youtube.com/watch?v=gT0Lh1eYk78 - CSS
+* https://www.youtube.com/watch?v=uUuTYDg9XoI - GIT
+
+po wyrównaniu tabelka informacje kontaktowe moga wyglaac mniej wiecej tak: 
+
+[image.png]
