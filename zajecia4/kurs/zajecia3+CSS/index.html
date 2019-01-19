@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Combo1 page</title>
+		<meta name="description" content="Example of a webpage wit meta tag" />
+		<meta name="keywords" content="course, html" />
+		<meta name="robots" content="nofollow" />
+		<meta http-equiv="author" content="Krzysztof Jurkiewicz" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="expires" content="Sat, 19 Jan 2019 13:00:59 GMT" />
+    <style type="text/css">
+  			body {
+  				font-family: Helvetica, Arial, sans-serif;
+  				color: #665544;
+  				border: 2px solid #e72c2c;
+  				padding: 20px;}
+  			h1, h2, h3, h4, h5, h6, ol, ul, pre, address, blockquote, dl, div, fieldset, form, hr, table p, ul, li {
+  				border: 2px solid #e7642c;
+  				padding: 10px;
+  				line-height: 2em;}
+  			b, big, i, small, tt, abbr, acronym, cite, code, dfn, em, kbd, strong, samp, var, a, bdo, br, img, map, object, q, script, span, sub, sup, button, input, label, select, textarea {
+  				color: #665544;
+  				border: 2px solid #7fcbae;
+  				padding: 5px;}
+  		</style>
+  </head>
+  <body>
+    <form class="" action="http://www.youtube.com/results" method="get">
+      <input type="search" name="search_query">
+      <input type="submit" value="Search">
+    </form>
+    <form class="" action="http://www.example.com/login.php" method="post">
+    <fieldset>
+      <legend>informacje kontaktowe</legend>
+      <table>
+        <tr>
+          <label>
+            <td>
+              Imie:
+            </td>
+            <td>
+              <input type="text" name="name" required="required"/>
+            </td>
+          </label>
+        </tr>
+        <tr>
+          <label>
+            <td>
+              Email
+            </td>
+            <td>
+              <input type="email" name="mail"/>
+            </td>
+          </label>
+        </tr>
+        <tr>
+          <label>
+            <td>
+            Strona <i> www <i/>
+            </td>
+            <td>
+            <input type="url" name="webpage"/>
+            </td>
+          </label>
+      </tr>
+      <tr>
+        <label>
+          <td>
+            Haslo
+          </td>
+          <td>
+          <input type="password" name="password" required="required"/>
+          </td>
+        </label>
+      </tr>
+      <tr>
+        <label>
+          <td>
+            Data urodzenia
+          </td>
+          <td>
+            <input type="date" name="birth-date" required="required"/>
+          </td>
+        </label>
+      </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Informacje o zespole</legend>
+    <label>Wybierz ulubiony zespol
+    <select name="bands">
+       <option value="beatles">Beatelsi &lt3</option>
+       <option value="acdc">ACDC</option>
+       <option value="queen">Queens</option>
+     </select>
+    </label>
+    <br/><br/>
+
+      Ile gwiazdek bym im dal: <br/>
+      <input id="grade-1" type="radio" name="grade" value="1"/> <label for="grade-1">1</label>
+      <input id="grade-2" type="radio" name="grade" value="2"/><label for="grade-2">2</label>
+      <input id="grade-3" type="radio" name="grade" value="3" checked="checked"/><label for="grade-3">3</label>
+      <input id="grade-4" type="radio" name="grade" value="4"/><label for="grade-4">4</label>
+      <input id="grade-5" type="radio" name="grade" value="5"/><label for="grade-5">5</label>
+    <br/><br/>
+    <label>
+      Podziel sie z nami twoim zdaniem <br/>
+      <textarea name="comments" rows="4" cols="30">
+      Pisz tutaj...</textarea>
+    </label><br/>
+    </fieldset>
+    <fieldset>
+    <legend>Darmowe produkty</legend>
+
+
+    <label>
+    Jakie rzeczy chcialbym dostac za darmo: <br/>
+    <select name="bands" multiple="multiple" size="3">
+       <option value="pot">garnek</option>
+       <option value="pan">patelnia</option>
+       <option value="fork">widelec</option>
+     </select>
+    </label><br/><br/>
+    <label>
+      Twoje zdjecie:<br/>
+    <input type="file" name="photo">
+    </label><br/><br/>
+    </fieldset>
+    <label>
+     <input type="checkbox" name="agree_with_terms" value="yes"> Zgoda na przetwarzanie danych
+    </label><br/><br/>
+    <label>
+      <input type="image" value="Wyslij" src="submit.png" />
+    </label>
+    </form>
+  </body>
+</html>
+<!--
+
+bands = "beatles"
+bands = "Beatelsi <3"
+
+ -->
