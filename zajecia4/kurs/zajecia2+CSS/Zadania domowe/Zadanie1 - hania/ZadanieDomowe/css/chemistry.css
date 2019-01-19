@@ -1,0 +1,26 @@
+body {
+  background-color: red
+}
+#ChemistryTable {
+  background-color: #FF0000
+}
+    h1{
+      color: #ff93f7 !important;
+    }
+    h2{
+      color: #b76ab1;
+    }
+    h3{
+      color: #0093f7;
+    }
+    h1{
+      color: red;
+    }
+.kolorowa_tabelka {
+  font-weight: bold;
+  color: #f4baff;
+  background-color: rgba(0,128,0, 0.1);
+}
+td>a:visited {
+  color: green
+}
